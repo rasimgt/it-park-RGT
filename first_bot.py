@@ -1,5 +1,5 @@
 import telebot;
-bot = telebot.TeleBot('7935685520:AAGE8Ov2jk4vakLFHGE20YL3W-uAZ2xrn88'); #тут токен бота
+bot = telebot.TeleBot('8051689493:AAGQB6Ec2DaFYh8JZsosDwvOjTKSoiWcW00'); #тут токен бота
 @bot.message_handler(content_types=['text']) #слушаем бота
 def get_text(message):
     if message.text == "Привет": #проверям сообщение от пользователя
