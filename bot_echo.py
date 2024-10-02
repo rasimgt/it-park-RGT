@@ -12,4 +12,3 @@ async def start_command(mesage: types.Message):
     await message.answer('Привет я первый бот, могу отвечать')
 if __name__ == '__main__':
     executor.start_polling(dp)
-    

@@ -9,4 +9,4 @@ def get_text(message):
         bot.send_message(message.from_user.id, "напиши: Привет")
     else:
         bot.send_message(message.from_user.id, "я тебя не понимаю, напиши '/help'")
-bot.polling(none_stop=True, interval=0)# бот постоянно будет опрашивает сервер
+bot.polling(none_stop=True, interval=0)# бот постоянно будет опрашивает сервера
